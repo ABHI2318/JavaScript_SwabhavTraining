@@ -1,0 +1,47 @@
+.navbar-custom {
+    background-color: #6f42c1;
+  }
+  .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: white;
+  }
+  .navbar-custom .dropdown-menu {
+    background-color: #6f42c1;
+    color: white;
+  }
+  .navbar-custom .dropdown-item {
+    color: white;
+  }
+  .navbar-custom .dropdown-item:hover {
+    background-color: #563d7c;
+  }
+  .navbar-container {
+    display: flex;
+    align-items: center;
+  }
+  .hero-section {
+    background: url('https://th.bing.com/th/id/OIP.RhyeUaCmf-hCRtzM7I6BIAHaFW?rs=1&pid=ImgDetMain') center center / cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+  }
+  .image-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .image-card {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 200px;
+  }
+  .image-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .image-card:hover {
+    transform: translateY(-5px);
+  }
