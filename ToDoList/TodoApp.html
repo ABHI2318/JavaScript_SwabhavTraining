@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+   
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">ToDo List</h1>
+
+        
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="taskInput" placeholder="Add a new task">
+            <div class="input-group-append">
+                <button class="btn btn-primary" onclick="AddTask()">Add Task</button>
+            </div>
+        </div>
+
+       
+        <h3>Total Tasks</h3>
+        <ul class="list-group" id="totalTasks"></ul>
+
+        
+        <h3>Completed Tasks</h3>
+        <ul class="list-group" id="completedTasks"></ul>
+    </div>
+
+   
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
